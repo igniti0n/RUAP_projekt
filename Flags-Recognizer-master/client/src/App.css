@@ -1,0 +1,34 @@
+.titleContainer {
+  display: flex;
+  justify-content: center;
+}
+.predictionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  width:400px;
+  height: 200px;
+  padding-top: 20;
+  padding-bottom: 20px;
+}
+.mainContainer{
+  min-height: 100vh;
+}
+.prediction{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.result{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.prediction{
+  font-size: 20px;
+}
+.mainContainer{
+  background-color: rgba(0, 0, 0, 0.2);
+}
